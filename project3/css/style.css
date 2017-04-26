@@ -102,6 +102,7 @@ nav#horz ul li a {
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
+  padding-bottom: 10px;
   font-size: 25px;
   color: #fff;
   text-decoration: none;
@@ -141,13 +142,6 @@ p {
   margin: 1em;
 }
 
-ul > li {	
-  list-style-type: none;
-  list-style-position: inside;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  list-style-position: outside;
-}
 
 /* Android Webpage CSS */
 
@@ -210,6 +204,42 @@ ul > li {
   background-color: #808080;
 }
 
+/* start of css for jquery slider */
 
+#slidercontainer{
+  margin: 0;
+  height: auto;
+  width: auto;  
+}
 
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
 
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: 500px;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
