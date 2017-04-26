@@ -206,12 +206,6 @@ p {
 
 /* start of css for jquery slider */
 
-#slidercontainer{
-  margin: 0;
-  height: auto;
-  width: auto;  
-}
-
 .rslides {
   position: relative;
   list-style: none;
