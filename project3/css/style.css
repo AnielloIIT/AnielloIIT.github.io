@@ -87,7 +87,7 @@ nav#horz ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  border-bottom: 1em solid black;
+  border-bottom: 7px solid black;
 }
 
 nav#horz ul li {
@@ -99,10 +99,10 @@ nav#horz ul li {
 
 nav#horz ul li a {
   display: inline-block;
-  padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+  padding-top: 10px;
   font-size: 25px;
   color: #fff;
   text-decoration: none;
@@ -118,15 +118,15 @@ nav#horz ul li a:hover {
 
 h1 {
   font-family: 'Noto Sans', sans-serif;
-  font-size: 38px;
+  font-size: 28px;
   font-weight: bold;
 }
 
 h2 {
   font-family: 'Noto Sans', sans-serif;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: bold;
-  padding-top: 1em;
+  padding-top: 10px;
 }
 
 h3 {
@@ -135,6 +135,12 @@ h3 {
   font-weight: bold;
   padding-top: 1em;
 }
+h6{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  padding-top: .1em;
+  padding-bottom: .2em;
+}
 
 p {
   font-family: 'Roboto', sans-serif, acme;
@@ -142,6 +148,10 @@ p {
   margin: 1em;
 }
 
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+  color: gold;
+}
 
 /* Android Webpage CSS */
 
